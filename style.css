@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./assets/astronaut.jpg");
+}
+
+header{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    font-size: 25px;
+    position: relative;
+    top: 28px;
+    left: -1px;
+    box-shadow: -2px 3px 9px 1px rgba(0, 0, 0, 1.2);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 185px;
+}
+
+h1{
+    display: flex;
+    position: relative;
+    top: -104px;
+    left: 129px;
+    font-size: 75px;
+}
+p{
+    position: relative;
+    left: -417px;
+    top: 80px;
+    font-size: 19px;
+    width: 350px;
+}
+
+span{
+    position: relative;
+    left: -742px;
+    top: 205px;
+    width: 541px;
+    font-size: 25px;
+}
+input{
+    position: relative;
+    top: 287px;
+    left: 124px;
+    width: 380px;
+    font-size: 28px;
+    border-radius: 11px;
+    border: none;
+    cursor: pointer;
+}
+
+button{
+    position: relative;
+    top: 286px;
+    left: 127px;
+    width: 86px;
+    font-size: 10;
+    font-size: 24px;
+    border: none;
+    background: slateblue;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+button:active{
+    opacity: 0.5;
+    color: white;
+}
+
+a{
+    color: black;
+    font-size: 35px;
+    position: relative;
+    left: -81px;
+}
+
+a:hover{
+    opacity: 0.5;
+    color: white;
+}
